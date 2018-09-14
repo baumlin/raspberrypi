@@ -1,5 +1,5 @@
 # LibreELEC Power Button
-The code and instructions are taken from https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi and adapted for LibreELEC.
+The code and instructions are taken from https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi and adapted for the usage with LibreELEC. It allows to safely turn on/shutdown a Raspberry Pi running LibreELEC via a hardware button, instead of (un-)plugging the power source or shutting it off via the GUI.
 
 ## Installing RPi.GPIO on LibreELEC
 ```console
@@ -18,3 +18,5 @@ This should create a directory *virtual.rpi-tools* in */storage/.kodi/addons/*
       /storage/scripts/listen-for-shutdown.sh start
     ) &
     ```
+## Installing the hardware button
+Follow the instructions at https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi to connect the button to the correct GPIO pins.
