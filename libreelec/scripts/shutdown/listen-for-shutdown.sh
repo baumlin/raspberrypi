@@ -21,7 +21,7 @@ case "$1" in
     pkill -f /storage/scripts/listen-for-shutdown.py
     ;;
   *)
-    echo "Usage: /etc/init.d/listen-for-shutdown.sh {start|stop}"
+    echo "Usage: ./listen-for-shutdown.sh {start|stop}"
     exit 1
     ;;
 esac
