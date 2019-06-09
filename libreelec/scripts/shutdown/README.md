@@ -21,4 +21,4 @@ This should create a directory *virtual.rpi-tools* in */storage/.kodi/addons/*
     ) &
     ```
 ## Installing the hardware button
-Follow the instructions at https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi to connect the button to the correct GPIO pins.
+Connect the two GPIO connectors of the power button to GPIO3 and GND (i.e. pins 5 and 6). For more details, follow the instructions at https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi to connect the button to the correct GPIO pins.
